@@ -1,0 +1,65 @@
+/* App.css */
+
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-form {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-form input {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .family-tree {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+  }
+  
+  .family-list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .family-list h2 {
+    margin-top: 0;
+  }
+  
+  .family-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .family-list li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .family-list button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
